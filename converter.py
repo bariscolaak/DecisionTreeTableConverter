@@ -1,5 +1,3 @@
-import numpy as np
-import pandas as pd
 def tree_to_decision_table(tree_classifier, feature_names, class_names):
    
     def update_bounds(current_bounds, threshold, is_left):
